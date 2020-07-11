@@ -34,6 +34,11 @@ a:link {
   font-size: 20px;
 }
 
+a:visited {
+  color: #e6e6ff;
+  font-size: 20px;
+}
+
 a:hover {
   color: #9999ff;
   font-size: 20px;
