@@ -1,6 +1,44 @@
 head {
   display: none;
 }
+
+body {
+  background-color: black;
+}
+
+h1, h2, h3 {
+  color: azure;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  color: #00e600;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+a:link {
+  color: #e6e6ff;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #9999ff;
+  font-size: 20px;
+}
+
 th, td {
   padding: 15px;
 }
