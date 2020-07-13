@@ -2,8 +2,34 @@ head {
   display: none;
 }
 
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: azure;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: azure;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #00e600;
+  color: azure;
+}
+
 body {
   background-color: black;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 h1, h2, h3 {
@@ -25,8 +51,6 @@ h3 {
 p {
   color: #00e600;
   font-size: 20px;
-  margin-left: 15%;
-  margin-right: 15%;
 }
 
 a:link {
@@ -47,7 +71,20 @@ a:hover {
 th, td {
   padding: 15px;
 }
+
 table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
