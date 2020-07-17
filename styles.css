@@ -26,10 +26,16 @@ head {
   color: azure;
 }
 
+@font-face {
+  font-family: "sitesfont";
+  src: url(/fonts/sitesfont.ttf);
+}
+
 body {
   background-color: black;
   margin-left: 15%;
   margin-right: 15%;
+  font-family: "sitesfont", monospace;
 }
 
 h1, h2, h3 {
