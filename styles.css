@@ -39,7 +39,7 @@ body {
 }
 
 h1, h2, h3 {
-  color: #0000cc;
+  color: #0033cc;
 }
 
 h1 {
@@ -52,7 +52,7 @@ h2 {
 
 h3 {
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 p {
