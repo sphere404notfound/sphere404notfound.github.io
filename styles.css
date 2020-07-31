@@ -75,13 +75,10 @@ a:hover {
   font-size: 20px;
 }
 
-th, td {
-  padding: 15px;
-}
-
-table.center {
-  margin-left: auto;
-  margin-right: auto;
+th, td, table {
+  padding: 10px;
+  border: 1px solid #0040ff;
+  border-collapse: collapse;
 }
 
 img.displayed {
@@ -92,6 +89,11 @@ img.displayed {
 
 iframe {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.center {
   margin-left: auto;
   margin-right: auto;
 }
