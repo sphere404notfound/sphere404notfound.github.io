@@ -36,6 +36,8 @@ body {
   margin-left: 15%;
   margin-right: 15%;
   font-family: "sitesfont", monospace;
+  color: #00e600;
+  font-size: 20px;
 }
 
 h1, h2, h3 {
@@ -55,10 +57,6 @@ h3 {
   font-weight: 400;
 }
 
-p {
-  color: #00e600;
-  font-size: 20px;
-}
 
 a:link {
   color: #e6e6ff;
